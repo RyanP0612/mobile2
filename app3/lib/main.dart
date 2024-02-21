@@ -14,7 +14,7 @@ class CampoTexto extends StatefulWidget {
 class _CampoTextoState extends State<CampoTexto> {
   TextEditingController campo_nome = TextEditingController();
   String? valor;
-  String cor = "red";
+  Color cor = Colors.red;
   String senha = "123";
   @override
   Widget build(BuildContext context) {
@@ -49,13 +49,13 @@ class _CampoTextoState extends State<CampoTexto> {
               if (valor == senha){
                 setState(() {
                 
-                cor = "green";
+                cor = Colors.green;
               });
               }
               else {
                 setState(() {
                 
-                cor = "red";
+                cor = Colors.red;
               });
               }
               
@@ -66,7 +66,7 @@ class _CampoTextoState extends State<CampoTexto> {
             
             Container(
             
-              color: Colors.,
+              color: cor,
               height: 200,
               width: 200,
               child: Text("${valor}", textAlign: TextAlign.center,),
