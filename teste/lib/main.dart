@@ -1,7 +1,4 @@
-
-
 import 'package:flutter/material.dart'; // Pacote para o sistema operacional android
-
 
 // função principal
 void main() {
