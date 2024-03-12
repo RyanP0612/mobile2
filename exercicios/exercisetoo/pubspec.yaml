@@ -62,6 +62,16 @@ flutter:
   assets:
     - assets/italia.png
     - assets/foodIta.jpg
+    - assets/pizzas.jpg
+    - assets/espanha.png
+    - assets/foodEsp.jpg
+    - assets/burritos.jpg
+    - assets/canada.png
+    - assets/foodCan.jpg
+    - assets/beavertails.jpg
+    - assets/finlandia.png
+    - assets/foodFin.jpg
+    - assets/pororo.jpg
    
 
   # An image asset can refer to one or more resolution-specific "variants", see
