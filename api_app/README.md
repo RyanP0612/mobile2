@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:api_app/README.md
 # api_app
+========
+# ex4
+>>>>>>>> 975fb4c1f0ed15d2e2abc770623f7d2251e926b0:exercicios/ex4/README.md
 
 A new Flutter project.
 

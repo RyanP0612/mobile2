@@ -1,8 +1,11 @@
 import 'package:exfor/triangulo.dart';
 import 'package:flutter/material.dart';
 import 'main.dart';
+<<<<<<< HEAD
 import 'trapezio.dart';
 import 'ohm.dart';
+=======
+>>>>>>> 975fb4c1f0ed15d2e2abc770623f7d2251e926b0
 
 class MenuPrincipal extends StatefulWidget {
   const MenuPrincipal({super.key});
@@ -51,11 +54,19 @@ class _MenuPrincipalState extends State<MenuPrincipal> {
 
                       Positioned(
                       top: 100,
+<<<<<<< HEAD
                       left: 10,
                       child: Container(
                         width: 250,
                         height: 90,
                         decoration: BoxDecoration(borderRadius: BorderRadius.circular(15),  color:const Color.fromARGB(255, 177, 177, 177)),
+=======
+                      left: 6,
+                      child: Container(
+                        width: 250,
+                        height: 90,
+                        decoration: BoxDecoration(borderRadius: BorderRadius.circular(15), color: Colors.grey,),
+>>>>>>> 975fb4c1f0ed15d2e2abc770623f7d2251e926b0
                         
                         child: Text(" Calcular área do triângulo:\n🔼📐", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
                       ),),
@@ -70,6 +81,7 @@ class _MenuPrincipalState extends State<MenuPrincipal> {
                             builder: (context) => CalcT()),
                       );
 
+<<<<<<< HEAD
                       }, child: Icon(Icons.arrow_circle_right))),
 
                        Positioned(
@@ -115,6 +127,8 @@ class _MenuPrincipalState extends State<MenuPrincipal> {
                             builder: (context) => OhmCalc()),
                       );
 
+=======
+>>>>>>> 975fb4c1f0ed15d2e2abc770623f7d2251e926b0
                       }, child: Icon(Icons.arrow_circle_right)))
                       // Positioned(
                       // left: 5,

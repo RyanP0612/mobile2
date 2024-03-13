@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 
 import 'menu.dart';
 import 'dart:io';
 import 'package:flutter/material.dart';
+=======
+import 'package:flutter/material.dart';
+import 'menu.dart';
+
+>>>>>>> 975fb4c1f0ed15d2e2abc770623f7d2251e926b0
 void main() {
   // run app função que constrói a tela do app
   // materialapp função do widget para android
@@ -38,7 +44,11 @@ class Home extends StatelessWidget {
                   height: 120,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(80),
+<<<<<<< HEAD
                       color: Colors.white),
+=======
+                      color: Colors.red),
+>>>>>>> 975fb4c1f0ed15d2e2abc770623f7d2251e926b0
                   child: Image.asset(
                     "assets/logo.jpg",
                     fit: BoxFit.fill,

@@ -81,7 +81,11 @@ class _CalcTState extends State<CalcT> {
                       ),
                     ),
                     Positioned(
+<<<<<<< HEAD
                       left: 11,
+=======
+                      left: 6,
+>>>>>>> 975fb4c1f0ed15d2e2abc770623f7d2251e926b0
                       top: 300,
                       child: Text(
                         "Partindo disso, coloque os devidosvalores para\nb (base) e h (altura)!!",

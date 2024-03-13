@@ -62,8 +62,11 @@ flutter:
   assets:
     - assets/logo.jpg
     - assets/triangulo.jpg
+<<<<<<< HEAD
     - assets\trapezio.jpg
     - assets\ohm.jpg
+=======
+>>>>>>> 975fb4c1f0ed15d2e2abc770623f7d2251e926b0
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
