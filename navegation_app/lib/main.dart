@@ -143,6 +143,7 @@ class CheckBoxState extends State<CheckBox> {
    
    bool ischeck = false;
    bool ischeck2 = false;
+   
   @override
   Widget build(BuildContext context) {
     return Scaffold(
